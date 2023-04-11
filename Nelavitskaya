@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fraunces:ital,opsz,wght@1,9..144,200&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> <!-- ITALIC FONT // font-family: 'Abril Fatface', cursive;
+font-family: 'Fraunces', serif;
+font-family: 'Roboto', sans-serif;-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Familjen+Grotesk&family=Fraunces:ital,opsz,wght@1,9..144,200&family=Roboto:wght@400;500&family=Space+Grotesk&display=swap" rel="stylesheet"> <!-- GROTESK FONT without letter-spacing // font-family: 'Abril Fatface', cursive;
+font-family: 'Familjen Grotesk', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Space Grotesk', sans-serif; -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fraunces:ital,opsz,wght@1,9..144,200&family=Roboto:wght@400;500&family=Space+Grotesk&display=swap" rel="stylesheet"> <!-- GROTESK FONT with letter-spacing // font-family: 'Abril Fatface', cursive;
+font-family: 'Fraunces', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Space Grotesk', sans-serif; -->
+  </head>
+  <body>
+    <!-- <header>
+       <nav id="navbar">
+        <ul>
+          <li><a href="#about" id="profile-link" target="_blank">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+       </ul>
+      </nav>
+    </header> -->
+    <main>
+      <section id="welcome-section">
+        <section class="welcome-row top">
+          <div class="image-wrapper">
+            <img class="round-image" alt="my face" src="https://media-exp1.licdn.com/dms/image/C5603AQFz-1YttfCZrA/profile-displayphoto-shrink_800_800/0/1655455322138?e=1672272000&v=beta&t=0lVfnDlCs2JX9uoX6HkPN3oNJsnOZTvXDGS4NHYchzk"/>
+            <div class="info-wrapper">
+              <h2>Asya Nelavitskaya</h2>
+              <p>creative coder & pizza lover</p><br>
+              <p>Currently based in Georgia and ready to relocate</p>
+            </div>
+          </div>
+          <h1 class="heading top"><sup>01 </sup>About Me</h1>
+        </section>
+        <section class="welcome-row middle">
+          <h1 class="heading middle"><sup>02 </sup>Portfolio</h1>
+          <div class="info-wrapper">
+            <p>I'm not very experienced but yet very curious🔥 </p>
+          </div>
+        </section>
+        <section class="welcome-row bottom">
+          <div class="image-wrapper">
+            <div class="info-wrapper">
+              <p>It's me and all my fav social networks</p>
+            </div>
+            <img  class="small-image" alt="my photo" src="https://scontent.ftlv23-1.fna.fbcdn.net/v/t1.6435-9/64310397_3016367035047882_6487337664390365184_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=xjfP-I83ccsAX9XMD9R&_nc_ht=scontent.ftlv23-1.fna&oh=00_AT93s7xx05wdjY_9umdjW9USnPw5Id_5Md4b1Ey71lMlMw&oe=637BA9BC"/>
+          </div>
+          <h1 class="heading bottom"><sup>03 </sup>Contact</h1>
+        </section>
+      </section>
+
+      <section id="running-line">
+        <div>
+          <h1> <i>Asya</i> Nelavitskaya <i>Asya</i> Nelavitskaya <i>Asya</i> Nelavitskaya <i>Asya</i> Nelavitskaya <i>Asya</i> Nelavitskaya <i>Asya</i> Nelavitskaya</h1>
+        </div>
+      </section>
+      <section id="about">
+        <p>For more than 10 years I’ve been working as an teacher and interpreter. I was doing literary and technical translations and teaching English to kids and adults. First in my hometown Perm, then in Moscow and last couple years in Shanghai. I was having a great time in my comfort zone untill I met JavaScript. Since then I quit my job and left my shell.</p>
+      </section>
+
+      <section id="projects">
+        <h1>These are <i>Some</i> of my projects</h1>
+        <div id="gallery">
+          <div class="project-wrapper">
+            <a href="https://codepen.io/anastasia-nelavitskaya/pen/ExEVQpV" target="_blank"><img src="https://img.freepik.com/free-vector/wine-logo-vector-template_10250-26.jpg?w=360"/>
+            <div class="project-tile">Product Landing Page</div></a>
+          </div>
+          <div class="project-wrapper">
+            <a href="https://codepen.io/anastasia-nelavitskaya/pen/LYdpQrbb" target="_blank"><img src="https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
+            <div class="project-tile">Technical Documentation Page</div></a>
+          </div>
+          <div class="project-wrapper">
+            <a href="https://codepen.io/anastasia-nelavitskaya/pen/eYMpVKO" target="_blank"><img src="https://kabileshwaran.files.wordpress.com/2021/06/kiarostami_web3.jpg"/>
+            <div class="project-tile">Tribute Page</div></a>
+          </div>
+          <div class="project-wrapper">
+            <a href="https://codepen.io/anastasia-nelavitskaya/pen/vYRNdjJ" target="_blank"><img src="https://images.unsplash.com/photo-1633596683562-4a47eb4983c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"/>
+            <div class="project-tile">Survey Form</div></a>
+          </div>
+          <div class="project-wrapper">
+            <a href="" target="_blank"><img src="https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
+            <div class="project-tile">Project 5</div></a>
+          </div>
+          <div class="project-wrapper">
+            <a href="" target="_blank"><img src="https://images.unsplash.com/photo-1532102235608-dc8fc689c9ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"/>
+            <div class="project-tile">Project 6</div></a>
+        </div>
+          </div>
+          
+      </section>
+      <section id="contact">
+        <div class="social-icons">
+          <a href="https://www.facebook.com/anastasia.nelavitskaya/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/nelavitskaya_a/" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/to.asya.and.back/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/anastasiia-nelavitskaia-9479551a0/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.youtube.com/embed/dQw4w9WgXcQ" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <h1>Thank <i>you!</i></h1>
+      <p>That's all for now. Bye!</p>
+      <hr/>
+      <p>Made by me</p>
+      <p>2022</p>
+    </footer>
+  </body>
+</html>
